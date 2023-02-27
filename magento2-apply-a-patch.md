@@ -3,11 +3,9 @@
     it with `composer require cweagans/composer-patches`
  3. run **composer update**
  4. Add the code in conposer.json in **extras** section.
- 5. 
-            
-    "composer-exit-on-patch-failure": false,
+ `"composer-exit-on-patch-failure": false,
     "patches": {
 	    "vendor/composer-module-name": {
 		    "Patch_file_name":"patches/Patch_file_name.patch"
 	    }
-    }
+    }`
